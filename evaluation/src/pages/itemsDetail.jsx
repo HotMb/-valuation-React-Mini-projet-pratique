@@ -1,10 +1,8 @@
+import { useParams } from 'react-router-dom';
 function ItemsDetail() {
-    return (
-        <div>
-            <h1>Détail de l'élément</h1>
-            <p>Film, série.</p>
-        </div>
-    )
+    const { id } = useParams();
+    console.log(id);
+    return <div>Détail de l'élément {id}</div>;
 }
 
 export default ItemsDetail;
