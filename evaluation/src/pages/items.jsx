@@ -62,6 +62,7 @@ function Items() {
 
   return (
     <div>
+      <Link to={`/contact`}>Contact</Link>
       <h1>Liste des films</h1>
       <p>
         Nombre de favoris : <strong>{favorites.length}</strong>

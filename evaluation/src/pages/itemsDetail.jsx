@@ -5,7 +5,8 @@ function ItemsDetail() {
     const { id } = useParams();
     console.log(id);
     return <div>
-        <Link to={`/items`}><SquareArrowLeft />Revenir a la page precedente</Link>
+        <Link to={`/contact`}>Contact</Link>
+        <Link to={`/items`}><SquareArrowLeft />Revenir a la page des films</Link>
         <p>Détail de l'élément {id}</p>
         </div>;
 }
